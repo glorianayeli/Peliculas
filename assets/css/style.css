@@ -4,6 +4,7 @@ html{
 body{
     margin: 0;
     padding: 0;
+    font-family: 'PT Serif', serif;
     background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
 }
 h3{
@@ -14,6 +15,9 @@ h2{
 }
 a{
     text-decoration: none;
+}
+p{
+    font-size: 1.2rem;
 }
 .contenedor{
     min-height: 43%;
@@ -74,4 +78,9 @@ a{
 }
 .redireccionamientos .regístrate{
     margin: 4rem 2rem 0 30rem;
+}
+/*CSS de RecuperarContraseña*/
+.inicioDeSesion p{
+    margin: 1rem auto;
+    text-align: justify;
 }
