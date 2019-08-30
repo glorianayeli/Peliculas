@@ -1,0 +1,77 @@
+html{
+    font-size: 62.5%;/**forzar 1=62.6% 16px=10px**/
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+}
+h3{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+}
+.contenedor{
+    min-height: 43%;
+    min-width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    /*border: 1px #ededed solid;*/
+    box-shadow: 0px 0px 3px black inset;
+    border-radius: 4px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.iconos{
+    margin: 0 auto;
+    border-bottom: 1px rgb(214, 208, 208) solid;
+    min-width: 100%;
+}
+.iconos img{  
+    margin-top: 1rem;
+    margin-left: 20rem; 
+    height: 8rem;
+    max-width: 8rem;
+}
+.iconos h3{
+    margin: .5rem 0 1rem 17.5rem;
+}
+.inicioDeSesion{
+    display: flex;
+    flex-direction: column;
+}
+.inicioDeSesion h2{
+    margin: 1rem auto;
+}
+.inicioDeSesion .entrada{
+    width: 75%;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+    margin: .25rem auto;
+    border: 1px solid #666;
+    border-radius: 4px;
+}
+.inicioDeSesion button{
+    margin: 1rem auto;
+    width: 75%;
+    border-radius: 12px;
+    height: 2rem; 
+}
+.redireccionamientos a{
+    color: #666;
+    font-size: 1rem;
+}
+.redireccionamientos .restablecer{
+    margin: 4rem 0 0 2rem;
+    align-items: center;    
+}
+.redireccionamientos .regístrate{
+    margin: 4rem 2rem 0 30rem;
+}
