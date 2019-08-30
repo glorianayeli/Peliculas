@@ -7,7 +7,7 @@ body{
     font-family: 'PT Serif', serif;
     background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
 }
-h3{
+h1{
     font-size: 3rem;
 }
 h2{
@@ -18,6 +18,11 @@ a{
 }
 p{
     font-size: 1.2rem;
+}
+.contenedor-main{ 
+    max-width: 120rem;
+    margin: 0 auto;
+    border: 1px #666 solid;
 }
 .contenedor{
     min-height: 43%;
@@ -43,7 +48,7 @@ p{
     height: 8rem;
     max-width: 8rem;
 }
-.iconos h3{
+.iconos h1{
     margin: .5rem 0 1rem 17.5rem;
 }
 .inicioDeSesion{
