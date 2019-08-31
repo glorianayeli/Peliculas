@@ -1,0 +1,293 @@
+html{
+    font-size: 62.5%;/**forzar 1=62.6% 16px=10px**/
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+    /*background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 56%, rgba(237,237,237,1) 100%);*/
+    background-color:rgb(231, 231, 231);
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h4{
+    font-size:2rem;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1rem;
+}
+.fondoBlanco{
+    background-color: white;
+}
+.button{
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    color: #fff;
+    position: relative;
+    margin-left: 12rem;
+    margin-bottom: .5rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+}
+.contenedor-main{ 
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.seccion {
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+}
+.centrar-item{
+    margin: 0 auto;
+}
+.encolumnas{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    min-height: 43%;
+    min-width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    /*border: 1px #ededed solid;*/
+    box-shadow: 0px 0px 3px black inset;
+    border-radius: 4px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.iconos{
+    margin: 0 auto;
+    border-bottom: 1px rgb(214, 208, 208) solid;
+    min-width: 100%;
+}
+.iconos img{  
+    margin-top: 1rem;
+    margin-left: 20rem; 
+    height: 8rem;
+    max-width: 8rem;
+}
+.iconos h1{
+    margin: .5rem 0 1rem 16rem;
+}
+.inicioDeSesion{
+    display: flex;
+    flex-direction: column;
+}
+.inicioDeSesion h2{
+    margin: 1rem auto;
+}
+.inicioDeSesion .entrada{
+    width: 75%;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+    margin: .25rem auto;
+    border: 1px solid #666;
+    border-radius: 4px;
+}
+.inicioDeSesion button{
+    margin: 1rem auto;
+    width: 75%;
+    border-radius: 12px;
+    height: 2rem; 
+}
+.redireccionamientos a{
+    color: #666;
+    font-size: 1rem;
+}
+.redireccionamientos .restablecer{
+    margin: 4rem 0 0 2rem;
+    align-items: center;    
+}
+.redireccionamientos .regístrate{
+    margin: 4rem 2rem 0 30rem;
+}
+/*CSS de RecuperarContraseña*/
+.inicioDeSesion p{
+    margin: 1rem auto;
+    text-align: justify;
+}
+.iconos-Recuperar{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(214, 208, 208);
+}
+.iconos-Recuperar img{
+    height: 8rem;
+    max-width: 8rem;
+    margin: 1rem auto;
+}
+.iconos-Recuperar h1{
+    margin: 0 auto;
+}
+/*CSS de InformaciondePeliculas*/
+.img-banner{
+    /*modificamos el div y no la imagen*/
+    background-image: url(../img/moana.jpg);
+    height: 30rem;
+    background-size: cover;
+    opacity: .5;
+}
+#header-principal{
+    height: 15rem;
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#header-principal div{
+    display: flex;
+    align-items: center;
+}
+#header-principal div a{
+    color: black;
+    font-size: 2.5rem;   
+    margin-right: 1.5rem;  
+}
+#header-principal div a:hover{
+    color: #666;
+}
+#header-principal button{
+    margin-right: 2rem;
+    height: 4rem;
+    border: 2px solid #87CEEB;
+    border-radius: 4px;
+    background-color:#87CEEB;
+    color:white;
+    font-size: 2rem;
+}
+#header-principal .contenedor1 img{
+    margin-left: 2rem;
+}
+.barra{
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.Secuencia{
+    display: flex;
+}
+.Secuencia button{
+    margin-left: 80rem;
+    margin-top: 1.5rem; 
+    height: 3.5rem;
+    width: 6rem;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    background-color:#87CEEB;
+    border-radius: 4px;
+}
+.informacion-pelicula{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.informacion-pelicula .Informacion-secundaria{
+    display: flex;
+    justify-content: space-between;
+}
+.informacion-pelicula p{
+    border-bottom: .5px solid rgb(209, 205, 205);
+    border-left: .5px solid rgb(209, 205, 205);
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-right: 25rem;
+    padding: .5rem;
+    width: 100%; 
+}
+.Casting p{
+    margin:0;
+    width: 30%;
+}
+.Casting p:last-of-type{
+    margin-bottom: 2rem;
+}
+.trailer{
+    width: 30%;
+    box-shadow: 0px 0px 3px rgb(209, 205, 205);
+}
+.trailer video{ 
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.trailer h4{
+    margin-left: 2rem;
+}
+.trailer p{
+    margin-left: 2rem;
+}
+.trailer button{
+    margin-left: 2rem;
+    margin-bottom:2rem;
+    height: 3.5rem;
+    width: 6rem;
+    border-radius: 4px;
+    background-color:#87CEEB;
+    color:white;
+    border:none;
+}
+footer{
+    display: flex;
+    border-top:1px solid rgb(209, 205, 205);
+}
+.fecha{
+    width: 20%;
+    margin-top:2rem;
+}
+.features{
+     width: 20%;
+    margin-left: 20rem;
+}
+.about{
+    margin-left: 20rem;
+}
+/*CSS Registro*/
+.contenedorRegistro{
+    min-height: 65%;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    box-shadow: 0px 0px 3px rgb(209, 205, 205);
+    border-radius: 4px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background-color: white;
+}
+.iconosRegistro{
+    margin: 0 auto;
+    border-bottom: 1px rgb(214, 208, 208) solid;
+    min-width: 100%;
+}
+.iconosRegistro img{
+    margin-top: 1rem;
+    margin-left: 15.5rem; 
+    height: 8rem;
+    max-width: 8rem;
+}
+.iconosRegistro h1{
+    margin-top: .5rem;
+    margin-left: 10.5rem;
+}
+.iconosRegistro p{
+    margin-left: 3rem;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+.ReenvioSesion{
+    text-align: center;
+}
