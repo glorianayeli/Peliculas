@@ -7,17 +7,31 @@ body{
     font-family: 'PT Serif', serif;
     background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
 }
-h3{
-    font-size: 3rem;
+h1{
+    font-size: 4rem;
 }
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
+}
+h4{
+    font-size:2rem;
 }
 a{
     text-decoration: none;
 }
 p{
     font-size: 1.2rem;
+}
+.contenedor-main{ 
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.seccion {
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+}
+.centrar-item{
+    margin: 0 auto;
 }
 .contenedor{
     min-height: 43%;
@@ -43,7 +57,7 @@ p{
     height: 8rem;
     max-width: 8rem;
 }
-.iconos h3{
+.iconos h1{
     margin: .5rem 0 1rem 17.5rem;
 }
 .inicioDeSesion{
@@ -84,3 +98,128 @@ p{
     margin: 1rem auto;
     text-align: justify;
 }
+/*CSS de InformaciondePeliculas*/
+.img-banner{
+    /*modificamos el div y no la imagen*/
+    background-image: url(../img/moana.jpg);
+    height: 30rem;
+    background-size: cover;
+    opacity: .5;
+}
+#header-principal{
+    height: 15rem;
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#header-principal div{
+    display: flex;
+    align-items: center;
+}
+#header-principal div a{
+    color: black;
+    font-size: 2.5rem;   
+    margin-right: 1.5rem;  
+}
+#header-principal div a:hover{
+    color: #666;
+}
+#header-principal button{
+    margin-right: 2rem;
+    height: 4rem;
+    border: 2px solid #87CEEB;
+    border-radius: 4px;
+    background-color:#87CEEB;
+    color:white;
+    font-size: 2rem;
+}
+#header-principal .contenedor1 img{
+    margin-left: 2rem;
+}
+.barra{
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.Secuencia{
+    display: flex;
+}
+.Secuencia button{
+    margin-left: 80rem;
+    margin-top: 1.5rem; 
+    height: 3.5rem;
+    width: 6rem;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    background-color:#87CEEB;
+    border-radius: 4px;
+}
+.informacion-pelicula{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.informacion-pelicula .Informacion-secundaria{
+    display: flex;
+    justify-content: space-between;
+}
+.informacion-pelicula p{
+    border-bottom: .5px solid rgb(209, 205, 205);
+    border-left: .5px solid rgb(209, 205, 205);
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-right: 25rem;
+    padding: .5rem;
+    width: 100%; 
+}
+.Casting p{
+    margin:0;
+    width: 30%;
+}
+.Casting p:last-of-type{
+    margin-bottom: 2rem;
+}
+.trailer{
+    width: 30%;
+    box-shadow: 0px 0px 3px rgb(209, 205, 205);
+}
+.trailer video{ 
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.trailer h4{
+    margin-left: 2rem;
+}
+.trailer p{
+    margin-left: 2rem;
+}
+.trailer button{
+    margin-left: 2rem;
+    margin-bottom:2rem;
+    height: 3.5rem;
+    width: 6rem;
+    border-radius: 4px;
+    background-color:#87CEEB;
+    color:white;
+    border:none;
+}
+footer{
+    display: flex;
+    border-top:1px solid rgb(209, 205, 205);
+}
+.fecha{
+    width: 20%;
+    margin-top:2rem;
+}
+.features{
+     width: 20%;
+    margin-left: 20rem;
+}
+.about{
+    margin-left: 20rem;
+}
+
