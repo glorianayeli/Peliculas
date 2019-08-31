@@ -5,7 +5,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'PT Serif', serif;
-    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 56%, rgba(237,237,237,1) 100%);
+    /*background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 56%, rgba(237,237,237,1) 100%);*/
+    background-color:rgb(231, 231, 231);
 }
 h1{
     font-size: 4rem;
@@ -20,7 +21,10 @@ a{
     text-decoration: none;
 }
 p{
-    font-size: 4rem;
+    font-size: 1rem;
+}
+.fondoBlanco{
+    background-color: white;
 }
 .button{
     background-color: #3897f0;
@@ -73,7 +77,7 @@ p{
     max-width: 8rem;
 }
 .iconos h1{
-    margin: .5rem 0 1rem 17.5rem;
+    margin: .5rem 0 1rem 16rem;
 }
 .inicioDeSesion{
     display: flex;
@@ -112,6 +116,19 @@ p{
 .inicioDeSesion p{
     margin: 1rem auto;
     text-align: justify;
+}
+.iconos-Recuperar{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(214, 208, 208);
+}
+.iconos-Recuperar img{
+    height: 8rem;
+    max-width: 8rem;
+    margin: 1rem auto;
+}
+.iconos-Recuperar h1{
+    margin: 0 auto;
 }
 /*CSS de InformaciondePeliculas*/
 .img-banner{
